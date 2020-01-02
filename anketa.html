@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Projektas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/anketa.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+    <header>
+        
+    <div class="row">
+        <div class="logo">
+		<a href="index.html"><img src="nuotraukos/logo.png"></a>
+            
+    <ul class="main-nav">    
+        <li><a href="index.html"> Pagrindinis </a></li>
+        <li><a href="nuotraukos.html"> Nuotraukos </a></li>
+        <li class="active"><a href="anketa.html"> Anketa </a></li>
+        <li><a href="kontaktai.html"> Kontaktai </a></li>
+		<li><a href="duk.html"> DUK </a></li>
+
+    </ul>    
+        
+    </div>
+	
+	
+	
+	<div class="simple-form">
+			<form action="program.php" method="post" id="registration">
+			<h1> ANKETA </h1>
+			<input type="text" name="fname" id="button" placeholder="Įveskite savo vardą"><br>
+			<br>
+			<input type="text" name="lname" id="button" placeholder="Įveskite savo pavardę"><br>
+			<br>
+			<input type="radio" name="gender" id="rd"> <span id="but">&nbsp;&nbsp;Vyras&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<input type="radio" name="gender" id="rd"> <span id="but">&nbsp;&nbsp;Moteris</span><br>
+			<br>
+			<input type="email" name="email" id="button" placeholder="Įveskite savo elektroninį paštą"><br>
+			<br>
+				<select id="ph">
+					<option>+370</option>
+					<option>+91</option>
+					<option>+92</option>
+					<option>+93</option>
+				</select>
+					<input type="number" name="num" placeholder="Įveskite savo numerį" id="phone"><br>
+			<br>
+			<textarea type="textarea" rows="3" cols="30" placeholder="Įveskite savo pranešimą"></textarea><br>
+			<br>
+			<input type="file" id="real-file" hidden="hidden" />
+			<button type="button" id="custom-button">CHOOSE A FILE</button>
+			<span id="custom-text">No file chosen, yet.</span>
+		
+<script src="js/button.js" ></script>
+			
+			<br>
+			<input type="submit" value="Išsiųsti" id="butt">
+			
+			</form>
+	</div>
+	</body>
+</html>

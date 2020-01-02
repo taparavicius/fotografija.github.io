@@ -1,0 +1,42 @@
+		.rem {
+			
+			background-color: rgb(132, 163, 189);
+			width: 500px;
+			height: 480px;
+			border-radius: 10px;
+			float: left;
+			clear: left;
+		
+		}
+
+		.rem1 {
+			
+			background-color: rgb(132, 163, 189);
+			width: 500px;
+			height: 480px;
+			border-radius: 10px;
+			float: right;
+			clear: right;	
+		}
+		
+		h2{
+		
+	color: white;
+    font-size: 2vh;
+    text-align: center;
+}
+
+h3{
+	color: white;
+    font-size: 7vh;
+    text-align: center;
+}
+
+		p {
+		padding-left: 10px;
+		padding-right: 5px;
+		text-align: left;	
+			
+		}
+	
+		
